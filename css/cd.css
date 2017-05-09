@@ -1,0 +1,111 @@
+html{
+    font-size: 62.5%;
+}
+body { 
+    font-size: 1.6em;
+    line-height: 13pt;
+    background-image:url(../picture/fw.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+} 
+.clearfix:after { 
+    content:"\200B"; 
+    display:block; 
+    height:0; 
+    clear:both; 
+} 
+.clearfix {*zoom:1;}/*IE/7/6*/
+#page{
+	width:960  px;
+	margin:0 auto;
+}
+h1 { 
+    padding-top: 20px;
+    color: #2E93C1; 
+    text-decoration: underline; 
+    font-family: Georgia, SimSun, ; 
+} 
+h2 { 
+    padding: .4em 0 0 0 ;
+    color: black; 
+    text-shadow: 0 1px 0 #fff;
+    text-decoration: underline; 
+    font-family:Georgia, SimSun, ;
+} 
+b {  
+    font-style: italic;  
+    color: #357135;  
+    text-decoration: underline ;
+}
+.desktop h2:hover {
+    color: #369;
+    cursor: pointer;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    background: #496992;
+}
+nav li {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 40px;
+    height: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0 12px;
+}
+nav ul {
+    list-style: none;
+    width: 40em;
+    margin: 0 auto;
+    padding: 0;
+}
+nav a:hover {
+    background: #f9f9f9;
+    color: #373737;
+}
+
+nav li:last-child a {
+    background: #d24d21;
+    color: #fff;
+    text-shadow: #b5421c 1px 1px 1px;
+}
+
+nav li:last-child a:hover {
+    color: #ffac90;
+    text-shadow: #666 1px 1px 1px;
+}
+
+a {
+    color: #369;
+}
+a.print{
+	cursor: pointer;
+	text-decoration: underline;
+}
+a.print:link {color: #FF0000}
+a.print:visited {color: #6487BD}
+a.print:hover {color: #FF00FF}
+a.print:active {color: #0000ff}
+img{
+    border-style: solid;
+    border-width: thin;
+}
+img.flo {
+    border-style: solid;
+    border-width: thin;
+    margin: 4px;
+    float: left;
+}
