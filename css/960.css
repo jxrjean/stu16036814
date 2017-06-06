@@ -51,6 +51,24 @@ body {
   margin-left: 10px;
   margin-right: 10px;
 }
+a.grid_2{
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 10px;
+}
+p.grid_2{
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 10px;
+}
+p.grid_4{
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+}
 
 .push_1, .pull_1,
 .push_2, .pull_2,

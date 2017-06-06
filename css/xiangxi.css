@@ -1,0 +1,110 @@
+#page{
+    width:960px;
+    margin:0 auto;
+}
+#left{
+	  margin-top:32px;
+	  border-color: red;
+	  border-width:3px;
+	  border-style:groove;
+}
+.clearfix:after { 
+    content:"\200B"; 
+    display:block; 
+    height:0; 
+    clear:both; 
+} 
+.clearfix {*zoom:1;}/*IE/7/6*/
+html{
+    font-size: 62.5%;
+}
+body { 
+    font-size: 1.6em;
+    line-height: 1em;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    background: #496992;
+}
+nav li {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 40px;
+    height: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0 12px;
+}
+nav ul {
+    list-style: none;
+    width: 40em;
+    margin: 0 auto;
+    padding: 0;
+}
+nav a:hover {
+    background: #f9f9f9;
+    color: #373737;
+}
+
+nav li:last-child a {
+    background: #d24d21;
+    color: #fff;
+    text-shadow: #b5421c 1px 1px 1px;
+}
+
+nav li:last-child a:hover {
+    color: #ffac90;
+    text-shadow: #666 1px 1px 1px;
+}
+h1{
+		margin-top: 2em;
+		text-align: center;
+}
+table{
+	margin-top:2em;
+}
+li{
+	list-style-type:none;
+}
+li a{
+	color: blue;
+}
+p a{
+	color: blue;
+}
+a:link {color: #FF0000}
+a:visited {color: #6487BD}
+a:hover {color: #FF00FF}
+a:active {color: #0000ff}
+ .main {
+	height:35px;
+	overflow:hidden;
+	line-height:22px;
+}
+ .key {
+	margin-top:-20px;
+	color:#900;
+	cursor:pointer;
+}
+#heng{
+     margin:0 0;
+}
+#heng li{
+	float:left;
+	font-size: 70%;
+}
+#jishu{
+	color:red;
+}

@@ -1,5 +1,5 @@
-#page{
-    width:960px;
+#page#page{
+    width:960  px;
     margin:0 auto;
 }
 .clearfix:after { 
@@ -24,7 +24,8 @@ h1{
     font-family: Georgia, SimSun, ;
     font-size:230%; 
 }
-h2{
+h2{  
+     
      margin-top: 0;
      font-size:1em; 
 }
@@ -223,10 +224,9 @@ section li a{
 }
 #taolun{
     line-height:1.3em;
-    margin-top:1em; 
+    margin-top:5em; 
 }
 button{
     margin-top:8px;
 }
-
 

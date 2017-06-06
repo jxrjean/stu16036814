@@ -1,53 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>注册</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/form.css">
+</head>
 <body background="pic.jpg">
-<h2 align="center"><b>用户注册</b></h2>
-<form >
-登陆密码：<input type="password" id="password" value="" size="20"><br/>
-确认密码：<input type="password" id="password" value="" size="20"><br/>
-昵称：<input type="text" name="name" id="name"><br/>
-真实姓名：<input type="text" name="name" id="name"><br/>
-电话：<input type="text" name="name" id="name"><br/>
-电子邮件：
-<input type="text" name="email">@<select name="select5">
-<option value="1" select>qq.com</option>
-<option value="2" >sohu.com</option>
-<option value="3" >163.com</option>
-<option value="4" >sina.com</option>
-<option value="5" >yahoo.com</option>
-</select><br/>
-性别：<input type="radio" value="male" checked />男
-<input type="radio" value="female" />女<br/>
-年级：
-<select name="select1">
-<option value="1" select>2016级</option>
-<option value="2" >2015级</option>
-<option value="3" >2014级</option>
-</select>
-专业：
-<select name="select2">
-<option value="1" select>软件工程</option>
-<option value="2" >网络安全</option>
-<option value="3" >计算计科学与技术</option>
-</select>
-班级：
-<select name="select3">
-<option value="1" select>1班</option>
-<option value="2" >2班</option>
-<option value="3" >3班</option>
-</select><br/>
-密码提示问题：
-<select name="select4">
-<option value="1" select>你的小学名字？</option>
-<option value="2" >你的高中名字？</option>
-<option value="3" >最喜欢的偶像？</option>
-<option value="4" >最喜欢的歌？</option>
-</select><br/>
-问题答案：
-<input type="text"><br/>
-学习语言种类：
-<input type="checkbox" checked>C语言
-<input type="checkbox" checked>java
-<input type="checkbox">c++
-<input type="checkbox">c#
-<br/>
+  <div id="page">
+    <nav class="">
+		  <ul>
+			  <li class=""><a href="dongman.html">在线动漫</a></li>
+				<li><a href="dongman.html">在线漫画</a></li>
+				<li><a href="dongman.html">轻小说文库</a></li>
+				<li><a href="dongman.html">动漫排行榜</a></li>
+				<li><a href="dongman.html">动漫情报</a></li>
+				<li><a href="dongman.html">今日推荐</a></li>
+		  </ul>
+ </nav>
+  <h2 align="center"><b>用户注册</b></h2>
+		<form >
+		昵称：<input type="text" name="name" id="name"><br/>
+		性别：<input type="radio" value="male" checked />男
+		<input type="radio" value="female" />女<br/>
+		输入你要使用的密码：<input class="easyui-validatebox" required="true" missingMessage="密码必须填写" size="20" type="password" name="passwd" id="pwd1"></input><br/>
+    重新输入一样的密码：<input class="easyui-validatebox" required="true" missingMessage="密码必须填写" size="20" type="password" name="passwd" id="pwd2" onkeyup="validate()"/><span id="tishi"></span></input><br/>
+    <input type="reset" value="重新输入"><br/>
+		密码提示问题：
+		<select name="select4">
+		<option value="1" select>你的小学名字？</option>
+		<option value="2" >你的高中名字？</option>
+		<option value="3" >最喜欢的偶像？</option>
+		<option value="4" >最喜欢的歌？</option>
+		</select><br/>
+		问题答案：
+		<input type="text"><br/>
+		电话：<input type="text" name="name" id="name"><br/>
+		电子邮件：
+		<input type="text" name="email">@<select name="select5">
+		<option value="1" select>qq.com</option>
+		<option value="2" >sohu.com</option>
+		<option value="3" >163.com</option>
+		<option value="4" >sina.com</option>
+		<option value="5" >yahoo.com</option>
+		</select><br/>
+		<input type="submit" value="提交"><br/>
+		<a href="index.html">返回xiaozai动漫</a>
+		 <script>
+              function validate() {
+                  var pwd1 = document.getElementById("pwd1").value;
+                  var pwd2 = document.getElementById("pwd2").value;
 
-</form></body>
+    		<!-- 对比两次输入的密码 -->
+                  if(pwd1 == pwd2) {
+                      document.getElementById("tishi").innerHTML="<font color='green'>两次密码相同</font>";
+                      document.getElementById("submit").disabled = false;
+                  }
+                  else {
+                      document.getElementById("tishi").innerHTML="<font color='red'>两次密码不相同</font>";
+                    document.getElementById("submit").disabled = true;
+                  }
+              }
+          </script>
+</form>
+</div>
+</body>
+</html>
