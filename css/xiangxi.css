@@ -79,15 +79,23 @@ li{
 	list-style-type:none;
 }
 li a{
-	color: blue;
+	color: #5890d8;
 }
 p a{
 	color: blue;
 }
-a:link {color: #FF0000}
-a:visited {color: #6487BD}
-a:hover {color: #FF00FF}
-a:active {color: #0000ff}
+a:link {
+    color: #5890d8；
+}
+a:visited {
+    color: #6487BD；
+}
+a:hover {
+    color: #FF00FF；
+}
+a:active {
+    color: #0000ff；
+}
  .main {
 	height:35px;
 	overflow:hidden;
@@ -104,7 +112,4 @@ a:active {color: #0000ff}
 #heng li{
 	float:left;
 	font-size: 70%;
-}
-#jishu{
-	color:red;
 }
