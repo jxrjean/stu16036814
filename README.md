@@ -11,7 +11,7 @@
 -------------------
 ## 页面结构与说明
 
-> 网站首先有一个主页名为小宅动漫(https://jxrjean.github.io/stu16036814)  的网页。这个网页含有大量链接和图片，内容精彩，更有动漫推荐和帖子讨论区。是列表页火热内容的集合，吸引访客。2网站有列表页(https://jxrjean.github.io/stu16036814/liebiao1.html) 。这个列表页是主页帖子的扩展，含有大量链接，为访客提供更为详细周到的服务。3网站有列表页（https://jxrjean.github.io/stu16036814/liebiao2.html)。这个列表页是个帖子，可以由主页跳转而来也可由帖子列表页跳转而来，这个列表较为详细的推荐的五部动漫，是网站帖子的一个案例，为访客推荐动漫。含有跳转到详细页的链接，也有百度网盘的地址，给访客观看动漫提供便利。4网站有详细页(https://jxrjean.github.io/stu16036814/xiangxi.html),这个详细介绍了一部动漫no game no life。内含这个动漫的各种信息和在线观看的网址。5表单页(https://jxrjean.github.io/stu16036814/form.html)，一个动漫网站的注册表单，出现乱码请改变游览器编码方式。— [小宅动漫](https://jxrjean.github.io/stu16036814)
+> 网站首先有一个主页名为小宅动漫(https://jxrjean.github.io/stu16036814)  的网页。这个网页含有大量链接和图片，内容精彩，更有动漫推荐和帖子讨论区。是列表页火热内容的集合，吸引访客。2网站有列表页(https://jxrjean.github.io/stu16036814/liebiao1.html)   。这个列表页是主页帖子的扩展，含有大量链接，为访客提供更为详细周到的服务。3网站有列表页（https://jxrjean.github.io/stu16036814/liebiao2.html)的网站   。这个列表页是个帖子，可以由主页跳转而来也可由帖子列表页跳转而来，这个列表较为详细的推荐的五部动漫，是网站帖子的一个案例，为访客推荐动漫。含有跳转到详细页的链接，也有百度网盘的地址，给访客观看动漫提供便利。4网站有详细页(https://jxrjean.github.io/stu16036814/xiangxi.html)的网站  ,这个详细介绍了一部动漫no game no life。内含这个动漫的各种信息和在线观看的网址。5表单页(https://jxrjean.github.io/stu16036814/form.html)的网站 ，一个动漫网站的注册表单，出现乱码请改变游览器编码方式。— [小宅动漫](https://jxrjean.github.io/stu16036814)
 ## 技术指标
 兼容游览器IE9+；html5 css2与css3；编辑工具Sublime
 ## 技术点说明
